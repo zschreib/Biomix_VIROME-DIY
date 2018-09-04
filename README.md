@@ -1,6 +1,6 @@
- Modified script to enable the use of VIROME-DIY on a SLURM Workload.
-      
-   slurm_VIROME.sh : Must be edited each time for a specified data set.
+### Modified script to enable the use of VIROME-DIY on a SLURM Workload.    
+  
+  slurm_VIROME.sh : Must be edited each time for a specified data set.
    
            #!/bin/bash
            #SBATCH -N 1
