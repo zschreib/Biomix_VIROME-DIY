@@ -1,9 +1,7 @@
-   Modified script to enable the use of VIROME-DIY on a SLURM Workload.
+ Modified script to enable the use of VIROME-DIY on a SLURM Workload.
       
-      slurm_VIROME.sh : Must be edited each time for a specified data set.
-      
-      
-         
+   slurm_VIROME.sh : Must be edited each time for a specified data set.
+   
            #!/bin/bash
            #SBATCH -N 1
            #SBATCH --partition=docker --account=docker (required for docker use on Biomix)
