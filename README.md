@@ -11,4 +11,6 @@
            #SBATCH --mem=12000                         (memory needed default=12gb)
            #SBATCH -J                                  (Job name)
 
-           perl execute_pipeline.pl -i= -o= -d= --threads=6
+           perl execute_pipeline.pl -i=/path/to/input/fastafile -o=/output -d=/path/to/database --threads=6
+           
+     if you have not yet downloading the database, set -d to a location where you would like this to be stored. 
