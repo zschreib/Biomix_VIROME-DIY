@@ -11,4 +11,4 @@
 
            perl execute_pipeline.pl -i=/path/to/input/fastafile -o=/output -d=/path/to/database --threads=6
            
-     if you have not yet downloading the database, set -d to a location where you would like this to be stored. 
+  if you have not yet downloading the database, set -d to a location where you would like this to be stored. 
